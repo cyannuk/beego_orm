@@ -25,7 +25,7 @@ more features please read the docs
 
 **Install:**
 
-	go get github.com/cyannuk/beego_orm/v2
+	go get github.com/cyannuk/beego_orm/orm
 
 ## Changelog
 
@@ -43,7 +43,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/cyannuk/beego_orm/client/orm"
+	"github.com/cyannuk/beego_orm/orm"
 	_ "github.com/go-sql-driver/mysql" // import your used driver
 )
 
